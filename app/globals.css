@@ -120,3 +120,31 @@
     @apply bg-background text-foreground;
   }
 }
+
+h1, h2, h3, h4, h5, h6, p, span, a {
+  font-family: var(--font-montserrat), sans-serif;
+}
+
+.devsec {
+  font-family: "Montserrat", sans-serif;
+}
+
+.devsec-des {
+  font-family: "Nunito", sans-serif;
+}
+
+.devsec-ab {
+  font-family: "Montserrat", sans-serif;
+}
+
+.about-head {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* .about-des {
+  font-family: "Nunito", sans-serif;
+} */
+
+.foot-head {
+  font-family: "Nunito", sans-serif;
+}
