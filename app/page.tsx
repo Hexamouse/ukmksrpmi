@@ -223,10 +223,10 @@ export default function Home() {
                         {tentang.map((item) => (
                           <li key={item.title}>
                             <NavigationMenuLink asChild>
-                              <a href={item.href} className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-red-50 hover:text-red-600 focus:bg-red-50 focus:text-red-600">
+                              <Link href={item.href} className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-red-50 hover:text-red-600 focus:bg-red-50 focus:text-red-600">
                                 <div className="text-sm font-medium leading-none">{item.title}</div>
                                 <p className="line-clamp-2 text-sm leading-snug text-gray-500">{item.description}</p>
-                              </a>
+                              </Link>
                             </NavigationMenuLink>
                           </li>
                         ))}
@@ -240,10 +240,10 @@ export default function Home() {
                         {components.map((item) => (
                           <li key={item.title}>
                             <NavigationMenuLink asChild>
-                              <a href={item.href} className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-red-50 hover:text-red-600 focus:bg-red-50 focus:text-red-600">
+                              <Link href={item.href} className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-red-50 hover:text-red-600 focus:bg-red-50 focus:text-red-600">
                                 <div className="text-sm font-medium leading-none">{item.title}</div>
                                 <p className="line-clamp-2 text-sm leading-snug text-gray-500">{item.description}</p>
-                              </a>
+                              </Link>
                             </NavigationMenuLink>
                           </li>
                         ))}
@@ -257,10 +257,10 @@ export default function Home() {
                         {media.map((item) => (
                           <li key={item.title}>
                             <NavigationMenuLink asChild>
-                              <a href={item.href} className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-red-50 hover:text-red-600 focus:bg-red-50 focus:text-red-600">
+                              <Link href={item.href} className="block select-none space-y-1 rounded-md p-3 leading-none no-underline outline-none transition-colors hover:bg-red-50 hover:text-red-600 focus:bg-red-50 focus:text-red-600">
                                 <div className="text-sm font-medium leading-none">{item.title}</div>
                                 <p className="line-clamp-2 text-sm leading-snug text-gray-500">{item.description}</p>
-                              </a>
+                              </Link>
                             </NavigationMenuLink>
                           </li>
                         ))}
@@ -591,9 +591,9 @@ export default function Home() {
             <div className="text-center md:text-left">
               <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-4">Ikuti Kami</h3>
               <div className="flex gap-4 justify-center md:justify-start">
-                <a href="#" className="text-red-600 hover:text-red-800 text-sm sm:text-base">Facebook</a>
-                <a href="#" className="text-red-600 hover:text-red-800 text-sm sm:text-base">Instagram</a>
-                <a href="#" className="text-red-600 hover:text-red-800 text-sm sm:text-base">Twitter</a>
+                <Link href="#" className="text-red-600 hover:text-red-800 text-sm sm:text-base">Facebook</Link>
+                <Link href="#" className="text-red-600 hover:text-red-800 text-sm sm:text-base">Instagram</Link>
+                <Link href="#" className="text-red-600 hover:text-red-800 text-sm sm:text-base">Twitter</Link>
               </div>
             </div>
           </div>
