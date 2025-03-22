@@ -184,7 +184,7 @@ export default function Home() {
           </div>
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-2 sm:gap-4">
-              <a href="/">
+              <Link href="/">
                 <Image
                   src="/assets/etc/logo/logo.png"
                   alt="KSR PMI Logo"
@@ -192,7 +192,7 @@ export default function Home() {
                   height={225}
                   className="w-24 sm:w-40 lg:w-48 h-auto"
                 />
-              </a>
+              </Link>
               <div className="flex items-center gap-2 sm:gap-4">
                 <div className="h-8 sm:h-12 w-[2px] bg-gray-300 hidden sm:block"></div>
                 <div className="text-gray-800 hidden sm:block">
