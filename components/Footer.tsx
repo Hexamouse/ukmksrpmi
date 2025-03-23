@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-r from-blue-50 to-red-50 py-12">
+    <footer className="bg-gradient-to-r from-blue-50 to-red-50 py-12 border border-t-2 border-neutral-300">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Footer Content */}
         <div className="foot-head grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-8">

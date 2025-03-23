@@ -62,7 +62,7 @@ export default function Login() {
       />
 
       {/* Login Section */}
-      <section className="pt-32 md:pt-36 bg-gradient-to-r from-blue-50 to-pink-50">
+      <section className="pt-32 md:pt-36 bg-white">
         {/* Title - Centered at top */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold">

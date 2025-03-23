@@ -12,8 +12,8 @@ export const components = [
   ];
   
   export const tentang = [
-    { title: "Sejarah", href: "#sejarah", description: "Sejarah KSR PMI Unit UPI YPTK PADANG" },
-    { title: "Visi & Misi", href: "#visi-misi", description: "Visi dan Misi KSR PMI Unit UPI YPTK PADANG" },
-    { title: "Pengurus", href: "#pengurus", description: "Pengurus KSR PMI Unit UPI YPTK PADANG" },
+    { title: "Sejarah", href: "/Profil/Sejarah", description: "Sejarah KSR PMI Unit UPI YPTK PADANG" },
+    { title: "Visi & Misi", href: "/Profil/Visi_Misi", description: "Visi dan Misi KSR PMI Unit UPI YPTK PADANG" },
+    { title: "Pengurus", href: "/Profil/Pengurus", description: "Pengurus KSR PMI Unit UPI YPTK PADANG" },
     { title: "Program Kerja", href: "#program-kerja", description: "Program Kerja KSR PMI Unit UPI YPTK PADANG" },
   ];
