@@ -1,4 +1,3 @@
-// components/Footer.tsx
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -6,9 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-r from-blue-50 to-red-50 py-12 border border-t-2 border-neutral-300">
       <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Main Footer Content */}
         <div className="foot-head grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-8">
-          {/* Logo and Organization Info */}
           <div className="flex flex-col items-center lg:items-start">
             <Image
               src="/assets/etc/logo/ksr_logo_1.png"
@@ -25,7 +22,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Divisi Section */}
+          {/* Divisi */}
           <div>
             <h3 className="font-semibold text-base mb-3">Divisi</h3>
             <ul className="space-y-2 text-sm">
@@ -35,7 +32,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Personalia Section */}
+          {/* Personalia */}
           <div>
             <h3 className="font-semibold text-base mb-3">Personalia</h3>
             <ul className="space-y-2 text-sm">
@@ -45,7 +42,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Explore Section */}
+          {/* Explore */}
           <div>
             <h3 className="font-semibold text-base mb-3">Explore</h3>
             <ul className="space-y-2 text-sm">
@@ -56,7 +53,7 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Sekretariat Section */}
+          {/* Sekretariat */}
           <div>
             <h3 className="font-semibold text-base mb-3">Sekretariat</h3>
             <div className="text-sm space-y-2">
@@ -74,7 +71,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-gray-200 my-6"></div>
 
-        {/* Copyright Section */}
+        {/* Copyright */}
         <div className="text-center text-sm text-gray-600">
           <p>© {new Date(). getFullYear()} KSR PMI Unit UPI YPTK. All rights reserved.</p>
           <Link href="https://www.dzikrimaulana.my.id/" target='_blank' rel='noopener noreferrer'><p className="text-xs mt-1">Powered by <span className='text-red-600'>Dzikri Tech</span></p></Link>
