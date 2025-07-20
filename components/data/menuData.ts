@@ -1,4 +1,3 @@
-// components/data/menuData.ts
 export const components = [
     { title: "Donor Darah", href: "#donor-darah", description: "Kegiatan rutin untuk mengumpulkan darah bagi yang membutuhkan." },
     { title: "Pertolongan Pertama", href: "#pertolongan-pertama", description: "Pelatihan dan simulasi untuk situasi darurat." },
