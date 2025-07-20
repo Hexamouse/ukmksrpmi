@@ -1,14 +1,11 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
-
-// Ikon teknologi (gunakan ikon sesuai kebutuhan, bisa dari library seperti react-icons)
 import { FaFigma, FaReact, FaNodeJs, FaJsSquare } from "react-icons/fa";
 
 export default function Developers() {
   return (
     <section id="developers" className="py-12 md:py-16 bg-gradient-to-r from-blue-50 to-red-50">
       <div className="container mx-auto px-4 max-w-7xl">
-        {/* Heading */}
         <div className="flex justify-between items-center mb-8 md:mb-12">
           <h2 
             className="text-xl md:text-2xl font-semibold"
@@ -25,16 +22,14 @@ export default function Developers() {
           </div>
         </div>
 
-        {/* Main Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-          {/* Left Side - Image with Overlay */}
           <div className="relative">
             <Card 
               className="relative overflow-hidden rounded-xl hover:shadow-xl transition-all duration-300 aspect-[3/4] md:aspect-[4/5]"
               data-aos="fade-up"
             >
               <Image
-                src="/assets/developers/project-lead.jpg" // Ganti dengan path gambar Anda
+                src="/assets/developers/project-lead.jpg"
                 alt="Project Lead"
                 fill
                 className="object-cover grayscale"
@@ -51,8 +46,7 @@ export default function Developers() {
               </CardContent>
             </Card>
           </div>
-
-          {/* Right Side - About Projects */}
+          
           <div 
             className="flex flex-col justify-center"
             data-aos="fade-up"
@@ -71,12 +65,11 @@ export default function Developers() {
               Website ini dirancang menggunakan berbagai teknologi canggih untuk memastikan
               pengalaman yang responsif dan mulus bagi semua pengguna.
             </p>
-            {/* Tech Stack Icons */}
             <div className="flex items-center gap-6">
               <div className="flex flex-col items-center gap-2 group">
                 <FaFigma 
-                  size={40} // Gunakan prop size untuk ukuran ikon
-                  className="text-pink-500 group-hover:scale-110 transition-transform duration-300" // Gunakan group-hover untuk efek hover
+                  size={40}
+                  className="text-pink-500 group-hover:scale-110 transition-transform duration-300"
                 />
                 <span className="text-xs text-gray-600">Figma</span>
               </div>
