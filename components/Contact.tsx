@@ -1,4 +1,3 @@
-// components/Contact.tsx
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { FaEnvelope, FaPhone, FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
@@ -17,7 +16,6 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center" data-aos="fade-up" data-aos-delay="200">
-          {/* Contact Info Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
             <div className="space-y-6">
               <div className="flex items-center space-x-4">
@@ -52,7 +50,7 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Social Media Card */}
+          {/* Sosial Media Card */}
           <div className="bg-white rounded-2xl shadow-lg p-8 transform hover:scale-105 transition-transform duration-300">
             <h3 className="text-2xl font-bold mb-8 text-gray-800">Ikuti Kami</h3>
             <div className="grid grid-cols-3 gap-6">
