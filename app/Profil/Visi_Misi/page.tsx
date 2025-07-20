@@ -1,4 +1,3 @@
-// app/visi-misi/page.tsx (or pages/visi-misi.tsx if using Pages Router)
 "use client";
 
 import * as React from 'react';
@@ -20,7 +19,6 @@ export default function VisiMisi() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [openSubmenu, setOpenSubmenu] = React.useState<string | null>(null);
 
-  // Inisialisasi AOS
   React.useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -58,9 +56,7 @@ export default function VisiMisi() {
         toggleSubmenu={toggleSubmenu}
       />
 
-      {/* Visi dan Misi Section */}
       <section className="flex-grow bg-gradient-to-r from-blue-50 to-pink-50 pt-[80px] md:pt-[100px]">
-        {/* Header with Background Image */}
         <div
           className="relative w-full min-h-[300px] md:min-h-[400px] bg-cover bg-center"
           style={{
@@ -70,15 +66,12 @@ export default function VisiMisi() {
         >
           {/* Overlay for Readability */}
           <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
-            {/* Title - Centered */}
             <div className="text-center mb-6">
               <h1 className="text-3xl md:text-4xl font-bold text-white">
                 <span className="text-red-600">KSR</span> VISI & MISI
               </h1>
               <p className="text-gray-200 mt-2 text-sm">Our vision and mission at KSR PMI UPI YPTK Padang</p>
             </div>
-
-            {/* Breadcrumb - Centered */}
             <Breadcrumb>
               <BreadcrumbList className="flex justify-center">
                 <BreadcrumbItem>
@@ -141,7 +134,6 @@ export default function VisiMisi() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
