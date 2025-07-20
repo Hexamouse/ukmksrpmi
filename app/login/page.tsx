@@ -1,4 +1,3 @@
-// app/login/page.tsx (or pages/login.tsx if using Pages Router)
 "use client";
 
 import * as React from 'react';
@@ -17,7 +16,6 @@ export default function Login() {
   const [username, setUsername] = React.useState('');
   const [password, setPassword] = React.useState('');
 
-  // Inisialisasi AOS
   React.useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -47,7 +45,6 @@ export default function Login() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    // Add your login logic here (e.g., API call)
     console.log('Login attempted with:', { username, password });
   };
 
@@ -61,9 +58,7 @@ export default function Login() {
         toggleSubmenu={toggleSubmenu}
       />
 
-      {/* Login Section */}
       <section className="pt-32 md:pt-36 bg-white">
-        {/* Title - Centered at top */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold">
             <span className="text-red-600">KSR</span> LOGIN
@@ -72,7 +67,6 @@ export default function Login() {
         </div>
 
         <div className="container mx-auto px-4 max-w-7xl mb-20">
-          {/* Main Content - Centered Form */}
           <div className="flex justify-center">
             <div className="w-full max-w-md" data-aos="fade-up" data-aos-delay="200">
               <div>
@@ -115,7 +109,6 @@ export default function Login() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
