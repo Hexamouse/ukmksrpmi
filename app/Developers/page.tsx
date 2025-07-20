@@ -15,7 +15,6 @@ export default function Home() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const [openSubmenu, setOpenSubmenu] = React.useState<string | null>(null);
 
-  // Inisialisasi AOS
   React.useEffect(() => {
     AOS.init({
       duration: 1000,
@@ -53,9 +52,7 @@ export default function Home() {
         toggleSubmenu={toggleSubmenu}
       />
 
-      {/* Developers Section */}
       <section className="pt-32 md:pt-36 bg-white">
-        {/* CX DEV! Title - Centered at top */}
         <div className="text-center mb-12">
           <h1 className="text-3xl md:text-4xl font-bold">
             <span className="devsec text-red-600">KSR</span> DEV!
@@ -66,10 +63,8 @@ export default function Home() {
         <div className="container mx-auto px-4 max-w-7xl mb-20">
           {/* Main Content */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
-            {/* Right Side on Desktop, First on Mobile - About Projects */}
             <div className="flex flex-col justify-center space-y-8 md:order-2 order-1" data-aos="fade-up" data-aos-delay="200">
               <div>
-                {/* Hide "Our Developers" on mobile */}
                 <h2 className="hidden md:block text-sm font-semibold mb-2 text-gray-500">Our Developers</h2>
                 <h3 className="devsec-ab text-2xl font-bold mb-6 text-center md:text-left uppercase">About Projects</h3>
                 <div className="devsec-des space-y-4 text-center md:text-left text-gray-600">
@@ -86,8 +81,6 @@ export default function Home() {
                     </p>
                 </div>
               </div>
-
-              {/* Tech Stack Icons - Centered */}
               <div className="flex flex-wrap gap-8 justify-center items-center">
                 {[
                   { Icon: FaFigma, color: "#F24E1E", label: "Figma" },
@@ -108,10 +101,8 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Left Side on Desktop, Second on Mobile - Photo Only */}
             <div className="relative md:order-1 order-2" data-aos="fade-up">
               <Card className="relative overflow-hidden py-0 w-full h-[450px] rounded-lg">
-                {/* Profile content - Only the image */}
                 <div className="relative h-full w-full flex flex-col items-center justify-center z-10">
                   <div className="relative w-full h-full">
                     <Image
@@ -127,7 +118,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
