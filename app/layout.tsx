@@ -1,9 +1,7 @@
-// app/layout.tsx
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-// Configure Montserrat font
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
