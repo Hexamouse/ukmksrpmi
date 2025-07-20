@@ -1,4 +1,3 @@
-// components/Clock.tsx
 "use client";
 
 import * as React from 'react';
