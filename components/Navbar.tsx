@@ -163,7 +163,6 @@ export default function Navbar({ toggleMenu }: NavbarProps) {
                 <Link href="/join">REKRUTMEN</Link>
               </Button>
             </div>
-            {/* Tambahkan ikon Info di samping tombol REKRUTMEN */}
             <div className="relative group">
               <Link href="../Developers">
                 <Info className="w-5 h-5 text-gray-600 cursor-pointer hover:text-red-600 transition-colors" />
