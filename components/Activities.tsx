@@ -39,10 +39,8 @@ export default function Activities() {
         >
           Dedikasi Berbuah Cerita Yang Mengesankan
         </h2>
-
-        {/* Grid Layout */}
+        
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
-          {/* Large Card (Left) - Desktop: Full Height, Mobile: Wide */}
           <Card 
             className="col-span-2 md:col-span-1 md:row-span-2 relative overflow-hidden rounded-xl hover:shadow-xl transition-all duration-300 aspect-[4/3] md:aspect-[3/4]"
             data-aos="fade-up"
@@ -60,9 +58,7 @@ export default function Activities() {
             </CardContent>
           </Card>
 
-          {/* Right Cards - Desktop: 2x2 Grid, Mobile: Varied Sizes */}
           <div className="col-span-2 md:col-span-2 grid grid-cols-2 gap-4 md:gap-6">
-            {/* Small Card 1 */}
             <Card 
               className="col-span-1 relative overflow-hidden rounded-xl hover:shadow-xl transition-all duration-300 aspect-[4/3]"
               data-aos="fade-up"
@@ -81,7 +77,6 @@ export default function Activities() {
               </CardContent>
             </Card>
 
-            {/* Small Card 2 */}
             <Card 
               className="col-span-1 relative overflow-hidden rounded-xl hover:shadow-xl transition-all duration-300 aspect-[4/3]"
               data-aos="fade-up"
@@ -100,7 +95,6 @@ export default function Activities() {
               </CardContent>
             </Card>
 
-            {/* Small Card 3 */}
             <Card 
               className="col-span-1 relative overflow-hidden rounded-xl hover:shadow-xl transition-all duration-300 aspect-[4/3]"
               data-aos="fade-up"
@@ -119,7 +113,6 @@ export default function Activities() {
               </CardContent>
             </Card>
 
-            {/* Small Card 4 */}
             <Card 
               className="col-span-1 relative overflow-hidden rounded-xl hover:shadow-xl transition-all duration-300 aspect-[4/3]"
               data-aos="fade-up"
