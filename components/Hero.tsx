@@ -17,6 +17,7 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="100"
         />
+        {/* Halo is Indonesian for Hello - appropriate for this Indonesian organization */}
         <p
           className="text-xl sm:text-2xl md:text-3xl font-semibold mb-2 drop-shadow-md"
           data-aos="fade-up"
