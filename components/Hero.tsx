@@ -17,6 +17,13 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="100"
         />
+        <p
+          className="text-xl sm:text-2xl md:text-3xl font-semibold mb-2 drop-shadow-md"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          Halo!
+        </p>
         <h1
           className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-3 sm:mb-4 drop-shadow-md uppercase"
           data-aos="fade-up"
